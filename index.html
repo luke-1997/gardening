@@ -135,6 +135,12 @@
     <div class="row justify-content-center text-center">
       <h1>Contact me</h1>
     <form class = "row justify-content-center g-3 text-center" action="https://formsubmit.co/5e70b29ad4fc91b3d555a62dc8e38cd7" method="POST">
+      <!-- Honeypot -->
+      <input type="text" name="_honey" style="display: none;">
+
+      <!-- Disable captcha -->
+      <input type="hidden" name="_captcha" value="false">
+
       <div class="col-md-4 ">
         <label for ="firstName" class="form-label">First Name</label>
         <input type="text" class="form-control" name="name" id="firstName" required>
