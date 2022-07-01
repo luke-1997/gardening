@@ -52,6 +52,12 @@ h2 {
   margin: 20px;
   min-width: 200px;
 }
+.box:hover {
+  cursor: pointer;
+}
+.box a {
+  text-decoration: none;
+}
 
 .card_title {
   height: 55px;
