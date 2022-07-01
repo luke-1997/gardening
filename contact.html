@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap" rel="stylesheet">
+    <title>scss practice</title>
+</head>
+<body>
+<!----- navbar ----->
+<nav class="navbar navbar-expand-md bg-light navbar-light">
+  <div class="container">
+    <a class="navbar-brand mr-2" href="index.html">Navbar</a>
+    <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about_us.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!----- main content ----->
+
+
+
+
+
+      
+<!----- page message ----->
+        <section class="bg-light text-light p-3 p-md-5 text-center mt-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-9 col-sm-12 text-dark fs-5 fw-bloder">
+                <h1 class="text-primary">Contact us today!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque facilisis 
+                  odio nec nibh consectetur fermentum. Mauris varius ornare dui, ut pharetra lacus pretium sed. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+<!----- contact form ----->
+
+
+<section class="bg-light text-dark pt-0 p-5 pb-0 text-center">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-sm-12 col-md-8">
+
+        <!-- <div class="col-sm-12 col-md-9"> -->
+          <div class="container mt-5 mb-1 py-3 ms-0 ps-0 contact-form">
+            <div class="row justify-content-center text-center">
+              <h2>Contact form</h2>
+            <form class = "row justify-content-center g-3 text-center" action="https://formsubmit.co/5e70b29ad4fc91b3d555a62dc8e38cd7" method="POST">
+              <!-- Honeypot -->
+              <input type="text" name="_honey" style="display: none;">
+        
+              <!-- Disable captcha -->
+              <input type="hidden" name="_captcha" value="false">
+        
+              <!-- Success message link -->
+              <input type="hidden" name="_next" value="https://luke-1997.github.io/gardening/success.html">
+        
+              <div class="col-md-4 ">
+                <label for ="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" name="name" id="firstName" required>
+              </div>
+              <div class="col-md-4 ">
+                <label for ="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" name="Last&nbsp;name" id="lastName" required>
+              </div>
+                <div class="col-md-8 ">
+                  <label for="emailInfo" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" name="email" id="emailInfo" required>
+                </div>            
+                <div class="col-md-8">
+                  <label for="message" class="for-label">Your message</label>
+                  <textarea class="form-control" id="message" name="Your&nbsp;message" rows="3" required> </textarea>
+                </div>
+                <div class="col-md-10">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+          </div>
+      </div>
+      <!-- </div> -->
+
+
+        </div>
+        <div class="col-sm-12 col-md-3">
+          
+          <!-- <div class="col-md-3 col-sm-12"> -->
+            <div class="row justify-content-center">
+              <div class="side_info cyan">
+                <h2>Contact info</h2>
+                <ul class="row my-md-5 my-sm-4 my-4">
+                  <li class="fs-5 fw-bold">Phone</li>
+                  <li>0442 532 563</li>
+                </ul>
+                <ul class="row my-md-5 my-sm-4 my-4">
+                  <li class="fs-5 fw-bold">Email</li>
+                  <li>example@test.com</li>
+                </ul>
+                <ul class="row my-md-5 my-sm-4 my-4">
+                  <li class="fs-5 fw-bold">Location</li>
+                  <li>2940 Canberra ACT</li>
+                </ul>
+              
+              </div>
+          </div>
+        </div>
+
+
+        </div>
+    </div>
+</section>
+
+
+<section>
+  <div class="container-fluid">
+    <img class="img-fluid footer_image" src="images/footer_pic.png">
+  </div>
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
